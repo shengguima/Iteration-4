@@ -1,0 +1,38 @@
+DecisionTreeClassificationModel: uid=dtc_2c64e688e660, depth=5, numNodes=25, numClasses=2, numFeatures=7
+  If (feature 2 <= 4.260248941574048)
+   If (feature 2 <= 1.105)
+    If (feature 4 <= 1.5)
+     If (feature 5 <= 3.756330128205128)
+      Predict: 0.0
+     Else (feature 5 > 3.756330128205128)
+      If (feature 1 <= 1.1308344880013876)
+       Predict: 0.0
+      Else (feature 1 > 1.1308344880013876)
+       Predict: 1.0
+    Else (feature 4 > 1.5)
+     Predict: 1.0
+   Else (feature 2 > 1.105)
+    If (feature 3 <= 47.9)
+     If (feature 6 <= 15.515512920231613)
+      If (feature 4 <= 1.5)
+       Predict: 0.0
+      Else (feature 4 > 1.5)
+       Predict: 1.0
+     Else (feature 6 > 15.515512920231613)
+      If (feature 3 <= 38.349999999999994)
+       Predict: 1.0
+      Else (feature 3 > 38.349999999999994)
+       Predict: 0.0
+    Else (feature 3 > 47.9)
+     If (feature 6 <= 16.299225267080594)
+      If (feature 4 <= 1.5)
+       Predict: 0.0
+      Else (feature 4 > 1.5)
+       Predict: 1.0
+     Else (feature 6 > 16.299225267080594)
+      If (feature 4 <= 2.5)
+       Predict: 0.0
+      Else (feature 4 > 2.5)
+       Predict: 1.0
+  Else (feature 2 > 4.260248941574048)
+   Predict: 1.0
